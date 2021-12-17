@@ -1,4 +1,4 @@
-import { getCurrentState } from './b.js'
+import { getCurrentState } from './b'
 
 describe('b', () => {
   describe('getCurrentState', () => {

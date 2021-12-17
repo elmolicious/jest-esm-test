@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node .",
     "lint": "eslint .",
-    "test": "NODE_OPTIONS='--experimental-vm-modules' jest"
+    "test": "cross-env NODE_OPTIONS='--experimental-vm-modules' jest"
   },
   "author": "Robin",
   "license": "UNLICENSED",
@@ -17,6 +17,7 @@
   },
   "type": "module",
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "eslint": "^8.2.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.3",
